@@ -1,0 +1,143 @@
+ol li{
+    list-style-type:none;
+}
+ol{
+    margin: 0;
+    padding:0;
+}
+.scroll-cont{
+    overflow-y: scroll;
+    max-height:500px
+}
+.scroll-cont::-webkit-scrollbar {
+    display: none;
+  }
+
+.question-verify-icon{
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.question-heading{
+    position: relative;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 900;
+    margin-bottom: 16px;
+    text-align: center;
+    max-width: 808px;
+    white-space: pre-line;
+}
+.stickyyy{
+    position: -webkit-sticky;
+    position: sticky !important;
+    top: 20px;
+    max-width: 500px;
+    margin-right: 24px;
+}
+
+li .step_headline{
+    transition: color .5s;
+    will-change: color;
+    font-size: 48px;
+    line-height: 46px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.q-image-cont{
+   
+    position: relative;
+    overflow: hidden;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+   
+}
+
+.verify-img-cont svg{
+    position:absolute;
+    top:-30px;
+   right: 20px;
+font-size: 44px;
+color: rgb(36, 168, 101);
+}
+
+.question-cont{
+    margin:0 10vh;
+    border: 16px solid #d9f0ff;
+padding:4vh 10vh 4vh 4vh;
+font-size: 18px;
+line-height: 24px;
+position: relative;
+
+}
+
+.overflow-question-cont{
+  
+    max-width: 700px;
+   
+}
+.question-cont button{
+    border-radius: 20px;
+}
+
+.q-text{
+    font-size: 22px;
+    line-height: 32px;
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+    will-change: opacity;
+    white-space: pre-line;
+}
+
+.answer{
+    margin-top:"20vh"}
+
+@media screen and (max-width:768px){
+    .question-heading{
+        font-size: 21px;
+        line-height: 24px;
+    }
+
+    .scroll-out{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center !important;
+    }
+
+    .scroll-cont{
+        overflow-x: hidden;
+        max-height: 100%;
+    }
+
+    .stickyyy ,.overflow-question-cont{
+        width: 100%;
+    }
+    .stickyyy{
+        padding: 0 15px;
+    }
+
+    .overflow-question-cont{
+        margin-top: 70px;
+    }
+    li .step_headline {
+       
+        font-size: 38px;
+        line-height: 46px;
+        
+    }
+
+    .q-text{
+        font-size:16px;
+        line-height: 24px;
+    }
+
+    .question-cont{
+        padding:3vh 2vh;
+        margin:0 2vh;
+    }
+.answer{
+    margin-top: 2vh;
+}
+    
+}

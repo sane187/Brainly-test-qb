@@ -1,0 +1,97 @@
+.testimonial-head{
+    font-size: 34px;
+    line-height: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.testi-btn-cont button{
+border: 0;
+outline: 0;
+background: white;
+}
+
+.testi-btn-icon{
+font-size: 60px;
+}
+
+.carousel-cont{
+    margin:0 10vh;
+    border: 16px solid #d9f0ff;
+padding:14vh 40px;
+}
+
+.user-img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    width: auto;
+}
+
+.user-img-katie{
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+}
+
+.testimonial_username{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    margin: 30px 19px 0 0;
+    text-align: center;
+}
+
+.testimonial-text{
+font-size: 12px;
+line-height: 16px;
+color:#46535f;
+}
+.testimonial-rating{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.t-icon svg{
+    font-size: 30px;
+}
+
+.t-icon{
+    margin-bottom: 6px;
+}
+
+@media screen and (max-width:768px){
+    .testimonial-head{
+        font-size: 21px;
+    }
+
+    .testi-btn-icon{
+        font-size: 20px;
+        }
+        
+        
+        .carousel-cont{
+            border: none;
+            margin: 0;
+            padding:2vh 15px;
+        }
+
+        .carousel-text{
+            font-size: 18px;
+        }
+
+
+        .user-img{
+         height: 100%;
+         width: 100%;
+           
+        }
+        
+        .user-img-katie{
+
+            height: 100%;
+            width: 100%;
+
+        }
+}

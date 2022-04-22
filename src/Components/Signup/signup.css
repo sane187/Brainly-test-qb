@@ -1,0 +1,16 @@
+.signup-banner{
+   
+        font-size: 56px;
+        text-transform: uppercase;
+      color:  #4fb3f6;
+      font-weight: 700;
+}
+
+@media screen and (max-width:768px){
+    .signup-banner{   font-size: 40px;}
+}
+
+@media screen and (max-width:500px){
+    .login-banner{   font-size: 30px;}
+
+}

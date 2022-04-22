@@ -1,0 +1,70 @@
+.ask-head{
+    font-size: 18px;
+    font-weight: 700;
+}
+.ask-cont{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #ebf2f7;;
+    border-radius: 8px;
+    padding:20px 16px;
+}
+.input-ask textarea{
+    border-radius: 20px;
+    background:#ebf2f7;;
+    border: 1px solid #ebf2f7;;
+    width: 100%;
+    margin-bottom: 15px;
+    padding:0;
+    height: 28vh;
+    padding: 12px 18px;
+  resize: none;
+}
+
+  
+
+.ask-btn{
+    background:#4fb3f6;
+    border-radius: 20px;
+    color: white !important;
+    text-transform: uppercase;
+font-size: 12px;
+font-weight: bold;
+padding:10px 20px;
+}
+
+.ask-dwn button{
+    border-radius: 50px;
+    background: #ebf2f7;
+    color: #687b8c ;
+    border: none;
+}
+.ask-dwn button:hover{
+    color:#687b8c ;
+}
+
+.adm{
+    width: 100%;
+    border-radius: 20px;
+    color:#687b8c ;
+    background: #ebf2f7;
+   
+}
+.adm a:hover{
+    color: white;
+    background:#4fb3f6;
+   
+}
+
+.ask-banner{
+    font-size: 54px;
+    text-transform: uppercase;
+  color:  #60d399;
+  font-weight: 700;
+}
+@media screen and (max-width:768px){
+    .ask-banner{   font-size: 38px;}
+}
+
+@media screen and (max-width:500px){
+    .ask-banner{   font-size: 30px;}}

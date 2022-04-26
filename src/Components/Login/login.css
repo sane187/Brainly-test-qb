@@ -45,9 +45,39 @@ padding: 8px 16px;
     text-transform: uppercase;
   color:  #4fb3f6;
   font-weight: 700;
+  text-align: center;
 
 }
 
+.google-btn-group .g-btn{
+   
+   width: 60%;
+    border-radius: 20px;
+    color: white ;
+    text-transform: uppercase;
+font-size: 14px;
+font-weight: bold;
+padding: 8px 16px;
+vertical-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.google-btn-group .g-btn:nth-child(1){
+    color: black ;
+    border:2px solid black
+}
+.google-btn-group .g-btn:nth-child(2){
+    background: black;
+}
+.google-btn-group .g-btn:nth-child(3){
+    background: #3c5b96;
+}
+
+.google-head{
+    font-size: 28px;
+}
 @media screen and (max-width:768px){
     .login-banner{   font-size: 40px;}
 }

@@ -1,0 +1,134 @@
+.answer-img-cont{
+    overflow: hidden;
+    width: 64px;
+    height: 95px;
+    border-radius: 5px;
+}
+
+.answer-img-cont img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.ans-book-outer{
+  border: 2px solid #ebf2f7;
+border-radius: 8px;
+}
+
+.ans-book-sec{
+    padding:1.5rem;
+     border-bottom: 2px solid #ebf2f7;
+}
+.ans-book-info-cont{
+    font-size:15px;
+line-height: 20px;
+color:#687b8c}
+
+.ans-acc-btn{
+    padding: 16px 24px !important;
+}
+
+.next-ans-btn{
+    font-size: 18px;
+   color: #687b8c;
+}
+.social-acc{
+    border:2px solid #ebf2f7;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.accordion-header h6{
+min-width: 220px;
+}
+
+.next-ans-btn svg{
+    font-size: 25px;
+}
+
+.ans-part-overflow{
+    overflow-x: auto;
+      max-width: 45vw;
+    
+}
+
+.ans-part-overflow button{
+    background-color: #fff;
+    border: 2px solid #b9e2fe;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    padding: 10px 14px;
+    white-space: nowrap;
+    margin-right: 16px;
+    font-weight: bold;
+}
+
+.ans-main-outer,.ans-explain-outer{
+    padding:24px;
+    border: 2px solid #ebf2f7;
+    border-radius: 8px;
+}
+
+.video-cont{
+    max-width: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.raam-8, .raam-8 .accordion-button, .raam-8 .accordion-header ,.raam-8 .accordion-body,.raam-8 .accordion-item {
+    background-color: #fff3d6 !important;
+  
+}
+
+.raam-13, .raam-13 .accordion-button, .raam-13 .accordion-header ,.raam-13 .accordion-body,.raam-13 .accordion-item {
+    background-color: #edf8ff !important;
+  
+}
+.accordion-item{border: none !important;}
+
+.react-answer svg{
+    font-size: 25px;
+    margin-left:15px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px){
+    
+.book-outer-text{
+    flex-direction: column;
+}
+
+.ans-accordion-chapter-cont,.next-ans-btn{
+    display: none !important;
+}
+
+.ans-main-outer,.ans-explain-outer{
+    padding:0.75rem
+}
+
+.ans-part-overflow{
+  
+      max-width: 90vw;
+    
+}
+
+.roh{
+    max-width: 100% !important;
+}
+.ans-book-sec{
+   display: flex;
+    flex-direction: row !important;
+}
+.ans-book-sec-2{
+    flex-direction: column;
+    align-items: center;
+}
+
+}
+
+@media screen and (max-width:440px){
+    .ans-book-outer{
+        width: 100%;
+    }  
+}

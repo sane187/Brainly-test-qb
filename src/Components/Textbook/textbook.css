@@ -1,0 +1,188 @@
+
+.layout-wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height:auto
+}
+
+
+.input-search-cont{
+ position: relative;
+ width: 100%;
+}
+.input-search-cont input{
+   
+   width: 100%;
+   display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    background: #ebf2f7;
+    border: 2px solid #ebf2f7;
+    border-radius: 20px;
+    color: #000;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 0 16px;
+    height: 40px;
+
+}
+
+.input-search-cont button{
+    position: absolute;
+    bottom: 0;
+    top:0;
+    right:2px;
+
+}
+.input-search-cont button:focus{
+    box-shadow: none;
+}
+
+.text-dwn button{
+    border-radius: 50px;
+    background: #ebf2f7;
+    color: #687b8c ;
+    border: none;
+    padding:8px 18px;
+   display: block;
+}
+.text-dwn button:hover{
+    color:#687b8c ;
+}
+
+.tdm{
+    width: 100%;
+    border-radius: 20px;
+    color:#687b8c ;
+    background: #ebf2f7;
+   
+}
+.tdm a:hover{
+    color: white;
+    background:#4fb3f6;
+   
+}
+
+.text-dwn .dropdown-toggle::after{
+    margin-left: 60px;
+}
+
+.textbook-head{
+    font-size: 39px;
+    font-weight: 700;
+}
+
+.textbook-head-small{
+    font-size: 18px;
+    line-height: 24px;
+    margin:10px 0 25px 0;
+    text-align:center
+}
+
+.book-section{
+    border-top: 2px solid #ebf2f7;
+    width: 100%;
+    background: #ebf2f7;
+}
+
+.opened-books div{
+font-size: 18px;
+font-weight: 700;
+}
+
+.opened-books button{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgba(255,255,255,0);
+    color: #4fb3f6;
+    border: none;
+    text-transform: uppercase;
+    }
+
+    .goh{
+        max-width: 980px;
+    }
+
+    .textbook-img-cont{
+        height: 206px;
+    margin-right: 0;
+    width: 144px;
+    border-radius: 4px;
+    overflow: hidden
+    }
+
+    .textbook-img-cont img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .text-book-cont{
+        width:19.3%;
+        overflow: hidden;
+    }
+
+    .textbook-txt{
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 1.5rem
+    }
+
+    .textbook-input-cont{
+        width: 90%;
+    }
+
+    @media screen and (max-width:768px){
+        
+.text-dwn .dropdown-toggle::after{
+    margin-left: 1.5rem;
+}
+.goh{
+    max-width: 100%;
+   
+}
+
+
+.textbook-input-cont{
+   flex-direction: column;
+}
+
+.text-book-cont{
+    width: 39.3%;
+}
+
+.text-dom{
+    margin-top: 1.2rem;
+}
+
+.layout-outer-text{
+
+    padding: 0 15px;
+    }
+}
+
+    @media screen and (max-width:1024px){
+              
+.text-dwn .dropdown-toggle::after{
+    margin-left: 1.5rem;
+
+}
+    }
+
+    @media screen and (max-width:440px){
+        .text-dwn{
+            display: none;
+        }
+
+        
+.textbook-head{
+    font-size: 24px;
+   text-align: left;
+}
+       
+.layout-outer-text{
+
+    padding: 0 15px;
+    }
+
+    }
